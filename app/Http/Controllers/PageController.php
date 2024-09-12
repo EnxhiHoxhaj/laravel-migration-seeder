@@ -11,6 +11,9 @@ class PageController extends Controller
         return view('home');
     }
     public function timetable() {
-        return view('timetable');
+        $trains= Trains:: all();
+        dd($trains);
+        return view('timetable', compact('trains'));
+
     }
 }
