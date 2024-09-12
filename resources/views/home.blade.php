@@ -2,15 +2,14 @@
 @extends('layouts.main')
 
 @section('hero')
-    <div>HERO HOME</div>
+
 @endsection
 
 @section('content')
 <div class="container my-5">
-    <h1>{{ $title }}</h1>
-    <img src="{{ Vite::asset('resources/img/colibri.jpg') }}" alt="" class="img-fluid">
+    <h1>Titolo</h1>
     <p>
-        {{ $text }}
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed aperiam commodi harum labore a aliquam, quisquam molestiae aspernatur vitae excepturi? Quasi facere doloribus ullam quas. Necessitatibus quam reiciendis inventore aliquid.
     </p>
 </div>
 
