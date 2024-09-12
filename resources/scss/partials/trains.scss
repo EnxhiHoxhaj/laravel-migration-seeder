@@ -1,17 +1,17 @@
 h1 {
     padding: 20px 0 10px;
-    color: orange;
+    color: #297b6e;
 }
 
 .dimention {
-    width: calc(100% / 5 - 10px);
+    width: calc(100% / 4 - 15px);
     background-color: rgb(247, 242, 235);
-    border: solid orange 3px;
+    border: solid #297b6e 3px;
     border-radius: 10px;
 }
 
 .cont-card {
-    gap: 10px;
+    gap: 15px;
     flex-wrap: wrap;
 }
 
