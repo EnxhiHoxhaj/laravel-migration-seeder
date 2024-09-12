@@ -1,4 +1,4 @@
-<nav class="nav navbar navbar-expand-lg bg-body-tertiary">
+<nav class="nav nav-perso navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid nav-perso">
       <a class="navbar-brand" href="#">Layout base</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
