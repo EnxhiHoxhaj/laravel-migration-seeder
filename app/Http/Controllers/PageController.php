@@ -12,7 +12,7 @@ class PageController extends Controller
     }
     public function timetable() {
         $trains= Trains:: all();
-        dd($trains);
+        // dd($trains);
         return view('timetable', compact('trains'));
 
     }
