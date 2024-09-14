@@ -11,7 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('trains', function (Blueprint $table) {
+
+
+        Schema::create('vacation_plan', function (Blueprint $table) {
             $table->id();
             $table->string('company', 50);
             $table->string('departure_station', 50);
@@ -20,9 +22,8 @@ return new class extends Migration
             $table->dateTime('arrival_time', precision:0);
             $table->smallInteger('train_code');
             $table->tinyInteger('number_of_carriages');
-            $table->boolean('on_time')->default(true);
-            $table->boolean('cancelled')->default(false);
-
+            $table->tinyInteger('number_of_changes');
+            $table->decimal('price', 10, 2);
         });
     }
 
@@ -31,6 +32,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('trains');
+        Schema::dropIfExists('vacation_plan');
     }
 };
