@@ -16,4 +16,10 @@ class PageController extends Controller
         return view('timetable', compact('trains'));
 
     }
+
+    public function vacation_plan() {
+
+        return view('vacation_plan');
+
+    }
 }
