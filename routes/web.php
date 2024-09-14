@@ -16,3 +16,4 @@ use App\Http\Controllers\PageController;
 
 Route::get('/', [PageController:: class, 'index'])->name('home');
 Route::get('/orario-treni', [PageController:: class, 'timetable'])->name('timetable');
+Route::get('/pacchetti-vacanze', [PageController:: class, 'vacation_plan'])->name('vacation_plan');

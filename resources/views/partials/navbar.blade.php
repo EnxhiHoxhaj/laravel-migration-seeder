@@ -8,6 +8,7 @@
         <div class="navbar-nav">
             <a class="nav-link" href="{{ route('home') }}">Home</a>
             <a class="nav-link" href="{{ route('timetable') }}">Timetable</a>
+            <a class="nav-link" href="{{ route('vacation_plan') }}">Piano Vacanze</a>
         </div>
       </div>
     </div>
