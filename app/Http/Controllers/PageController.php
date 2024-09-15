@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Trains;
+use App\Models\VacationPlans;
 
 class PageController extends Controller
 {
@@ -18,8 +19,8 @@ class PageController extends Controller
     }
 
     public function vacation_plan() {
-
-        return view('vacation_plan');
+        $vacation_plan= VacationPlans:: all();
+        return view('vacation_plan', compact('vacation_plan'));
 
     }
 }
