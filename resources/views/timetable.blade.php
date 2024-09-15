@@ -1,6 +1,10 @@
 {{-- questa view estende il file main.blade.php che è dentro la cartella view/layouts --}}
 @extends('layouts.main')
 
+@section('titlePage')
+    Tabella orari
+@endsection
+
 @section('content')
 <div class='lista'>
   <h1>Orario treni</h1>
