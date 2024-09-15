@@ -11,8 +11,6 @@ return new class extends Migration
      */
     public function up(): void
     {
-
-
         Schema::create('vacation_plan', function (Blueprint $table) {
             $table->id();
             $table->string('company', 50);
